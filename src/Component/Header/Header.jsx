@@ -19,7 +19,7 @@ function Header() {
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
       <div className={`header-right ${menuOpen ? 'show-menu' : ''}`}>
-        <Link to="/home" onClick={toggleMenu}><h2>Home</h2></Link>
+        <Link to="/" onClick={toggleMenu}><h2>Home</h2></Link>
         <Link to="/about" onClick={toggleMenu}><h2>About</h2></Link>
         <Link to="/project" onClick={toggleMenu}><h2>Projects</h2></Link>
       </div>

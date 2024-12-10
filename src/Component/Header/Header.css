@@ -15,13 +15,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #A1D6E2;
+    background: linear-gradient(to right, #b9cb42, #598e2b, #15d0ca);
     position: relative;
   }
   
   .header-left h1 {
     font-size: 24px;
-    color: #333;
+    color: whitesmoke;
   }
   
   .hidden-button {
@@ -35,10 +35,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  
   }
   
   .header-right h2 {
     margin-left: 20px;
+    margin-top: 25px;
     font-size: 18px;
   }
   

@@ -1,0 +1,46 @@
+footer {
+    background: linear-gradient(to right, #b9cb42, #598e2b, #15d0ca);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+  }
+
+  footer p span {
+    color: #fbbf24; 
+  }
+  
+  footer p:last-child {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+
+  footer div {
+    margin-top: 1.5rem;
+  }
+  
+  footer a {
+    margin: 0 1rem;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+
+  footer a:hover {
+    transform: scale(1.1);
+  }
+  
+
+  footer a svg {
+    width: 30px; 
+    height: 30px;
+  }
+  
+  footer a:hover svg {
+    color: #fbbf24; 
+  }
+  
